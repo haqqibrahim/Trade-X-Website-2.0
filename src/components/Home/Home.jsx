@@ -5,11 +5,11 @@ import Miniheader from "./Miniheader";
 import Ouropportunity from "./Ouropportunity";
 import TradeXopportunity from "./Trade-Xopportunity";
 import Risefogenz from "./riseofgenz";
-
-// IMAGE IMPORTS
-import LightImage from "../../../images/lightimage.svg";
-import Hero from "../../../images/hero.png";
-
+import Influencers from "./Influencers";
+import Wespend from "./Wespend";
+import Map from "./Mapping";
+import Future from "./Future";
+import Footer from "./Footer";
 const Home = () => {
 	return (
 		<>
@@ -19,6 +19,11 @@ const Home = () => {
 			<Ouropportunity />
 			<TradeXopportunity />
 			<Risefogenz />
+			<Influencers />
+			<Wespend />
+			<Map />
+			<Future />
+			<Footer />
 		</>
 	)
 }

@@ -10,7 +10,7 @@ const Header = () => {
       <h1 className="text-zinc-700 lg:text-xl font-mormal md:text-base font-sans sm:text-xs">
         that put Gen-Z consumers first
       </h1>
-      <div className="flex space-x-10 max-w-screen-{425}:flex-col items-center justify-center pt-10">
+      <div className="flex space-x-10 lg:max-w-screen-{425}:flex-col items-center justify-center pt-10 sm:columns-2">
         <div className="bg-[#ffff] py-2 w-36 rounded-lg cursor-pointer border-2 hover:bg-[#ffff]">
           Join as a customer
         </div>

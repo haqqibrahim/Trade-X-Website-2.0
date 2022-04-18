@@ -1,5 +1,15 @@
 // IMAGE IMPORTS
 import oupoint from "../../../images/oupoint.svg"
+
+// MATERIAL UI IMPORTS
+import Grid from "@mui/material/Grid";
+import Box from "@mui/material/Box";
+const style = {
+	line: {
+		textAlign: "center",
+		margin: "auto",
+	}
+}
 const Ouropportunity = () => {
 	return (
 		<>
@@ -14,9 +24,32 @@ const Ouropportunity = () => {
 					We want to create products and services that seek to meet consumer's taste
 				</h1>
 			</div>
-		<div className="mt-28 flex justify-center">
-			<img src={oupoint} alt="" className="lg:w-50% lg:h-auto md:w-80% md:h-auto sm:w-80% sm:h-auto" />
-		</div>
+		
+			<Box sx={{ width: "100%" }} className="pt-24">
+				<Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
+					<Grid item xs={4}>
+						<div className="text-white pb-1">40%</div>
+						<div><hr className="bg-[white] w-12 h-2" style={style.line} /></div>
+						<div className="text-white pt-9 lg:text-2xl sm:text-sm sm:text-center">out of the global</div>
+						<div className="text-white lg:text-2xl">consumer population</div>
+
+					</Grid>
+					<Grid item xs={4}>
+						<div className="text-white pb-1">$25-$125</div>
+						<div><hr className="bg-[white] w-16 h-2" style={style.line} /></div>
+						<div className="text-white pt-9 lg:text-2xl sm:text-sm">Billion in direct</div>
+						<div className="text-white lg:text-2xl">consumer spending</div>
+
+					</Grid>
+					<Grid item xs={4}>
+						<div className="text-white pb-1">31.2%</div>
+						<div><hr className="bg-[white] w-12 h-2" style={style.line} /></div>
+						<div className="text-white pt-9 lg:text-2xl">$2B of</div>
+						<div className="text-white lg:text-2xl">the global consumer spending</div>
+
+					</Grid>
+				</Grid>
+			</Box>
 		</>
 	)
 }

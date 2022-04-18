@@ -9,12 +9,18 @@ const styles = {
 	mck: {
 		height: "150%",
 		paddingBottom: "40px",
+		paddingLeft: "10px"
 	},
 
 	img: {
 		marginLeft: "auto",
 		marginRight: "auto",
 		display: "block",
+		"@media (minWidth: 768px)": {
+			width: "10px",	
+		}
+		
+
 	}
 }
 
@@ -22,7 +28,7 @@ const TradeXopportunity = () => {
 	return (
 		<>
 			<div className="bg-[#252425] mt-12" style={styles.mck}>
-				<div className="lg:ml-36 sm:ml-28 pt-16">
+				<div className="lg:ml-36 pt-16">
 					<h1 className="text-left font-sans" style={styles.textColor}>TRADE-X OPPORTUNITY</h1>
 					<h1 className="text-white lg:text-3xl text-left pt-8 font-sans font-semibold">40% of the Global</h1>
 					<h1 className="text-white lg:text-3xl text-left font-sans font-semibold">Consumer population</h1>
@@ -76,8 +82,8 @@ const TradeXopportunity = () => {
 				</div>
 
 			</div>
-			<div className=" lg:w-100% h-28" >
-				<img src={Involved} alt="" style={styles.img} className="sm:w-50%"/>
+			<div className=" lg:w-100% lg:h-28 md:h-10 sm:pb-28 bg-[#252425]" >
+				<img src={Involved} alt="" style={styles.img} className=""/>
 			</div>
 		</>
 	)
