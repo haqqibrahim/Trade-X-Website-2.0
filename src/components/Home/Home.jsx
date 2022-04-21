@@ -12,8 +12,7 @@ import Future from "./Future";
 import Footer from "./Footer";
 import Nav from "./Nav";
 
-import LightImage from  "../../../images/lightimage.svg";
-import Hero from "../../../images/hero.png";
+
 const Home = () => {
 	return (
 		<>
