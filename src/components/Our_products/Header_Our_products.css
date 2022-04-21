@@ -1,0 +1,14 @@
+.divA {
+  padding: 20px;
+  float: left;
+}
+
+.divB {
+  padding: 20px;
+  background-color: #cedddd;
+  float: right;
+}
+
+.divWarpper {
+  padding-top: 20px;
+}

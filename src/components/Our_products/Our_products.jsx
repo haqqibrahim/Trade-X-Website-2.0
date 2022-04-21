@@ -1,14 +1,14 @@
 // OUR PRODUCT COMPONENT
-import Nav from "../Home/Nav";
+import Header from './Header_Our_products';
 
-import React from 'react'
+import React from 'react';
 
 function Our_products() {
   return (
-	<>
-		<h1 className="text-white">Welcome</h1>
-	</>
-  )
+    <>
+      <Header />
+    </>
+  );
 }
 
-export default Our_products
+export default Our_products;
