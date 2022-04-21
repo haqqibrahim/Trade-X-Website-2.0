@@ -7,10 +7,6 @@ import { Routes, Route,Switch } from "react-router-dom";
 // CSS IMPORTS
 import './App.css'
 
-// IMAGE IMPORTS
-import LightImage from "../images/lightimage.svg";
-import Hero from "../images/hero.png";
-
 const App = () => {
 
   return (
