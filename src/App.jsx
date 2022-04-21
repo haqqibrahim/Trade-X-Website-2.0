@@ -1,6 +1,9 @@
 // COMPONENTS IMPORTS
 import Home from "./components/Home/Home";
+import Our_products from "./components/Our_products/Our_products";
+import Navbar from "./components/Home/Nav";
 
+import { Routes, Route } from "react-router-dom";
 // CSS IMPORTS
 import './App.css'
 
@@ -11,19 +14,19 @@ import Hero from "../images/hero.png";
 const App = () => {
 
   return (
+
     <div className="App">
-      <div className="relative h-400 w-200 ...">
-        <div className="absolute left-0 top-0 h-8000 w-800 ...">
-          <img src={LightImage} />
-        </div>
-      </div>
-      <Home />
-      <div className="h-400 w-200 static...">
-        <div className="absolute top-0 right-0 h-8000 w-800 ...">
-          <img src={Hero} />
-        </div>
-      </div>
+  
+      <Navbar />
+
+      <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/our_products" element={<Our_products />} />
+      </Routes>
+
+  
     </div>
+
   )
 }
 

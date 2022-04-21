@@ -10,11 +10,16 @@ import Wespend from "./Wespend";
 import Map from "./Mapping";
 import Future from "./Future";
 import Footer from "./Footer";
+import Nav from "./Nav";
+
+import LightImage from  "../../../images/lightimage.svg";
+import Hero from "../../../images/hero.png";
 const Home = () => {
 	return (
 		<>
-			<Navbar />
+			
 			<Header />
+			  
 			<Miniheader />
 			<Ouropportunity />
 			<TradeXopportunity />
@@ -24,6 +29,7 @@ const Home = () => {
 			<Map />
 			<Future />
 			<Footer />
+			
 		</>
 	)
 }

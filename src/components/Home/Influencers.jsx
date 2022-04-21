@@ -44,7 +44,8 @@ const Influencers = () => {
 						</div>
 						<div className="self-center">
 							<table style={styles.table} >
-								<tr>
+								<tbody>
+									<tr>
 									<td>
 										<img src={Tiktok} alt="" style={styles.img} />
 									</td>
@@ -58,6 +59,7 @@ const Influencers = () => {
 										<img src={Youtube} alt="" style={styles.img} />
 									</td>
 								</tr>
+								</tbody>
 							</table>
 						</div>
 					</Grid>
@@ -73,7 +75,8 @@ const Influencers = () => {
 						</div>
 						<div className="self-center">
 							<table style={styles.table} >
-								<tr>
+								<tbody>
+									<tr>
 									<td>
 										<img src={Tiktok} alt="" style={styles.img} />
 									</td>
@@ -87,6 +90,7 @@ const Influencers = () => {
 										<img src={Youtube} alt="" style={styles.img} />
 									</td>
 								</tr>
+								</tbody>
 							</table>
 						</div>
 					</Grid>
@@ -102,7 +106,8 @@ const Influencers = () => {
 						</div>
 						<div className="self-center">
 							<table style={styles.table} >
-								<tr>
+								<tbody>
+									<tr>
 									<td>
 										<img src={Tiktok} alt="" style={styles.img} />
 									</td>
@@ -116,6 +121,7 @@ const Influencers = () => {
 										<img src={Youtube} alt="" style={styles.img} />
 									</td>
 								</tr>
+								</tbody>
 							</table>
 						</div>
 					</Grid>
@@ -131,20 +137,22 @@ const Influencers = () => {
 						</div>
 						<div className="self-center">
 							<table style={styles.table} >
-								<tr>
-									<td>
-										<img src={Tiktok} alt="" style={styles.img} />
-									</td>
-									<td>
-										<img src={Twitter} alt="" style={styles.img} />
-									</td>
-									<td>
-										<img src={Ig} alt="" style={styles.img} />
-									</td>
-									<td>
-										<img src={Youtube} alt="" style={styles.img} />
-									</td>
-								</tr>
+								<tbody>
+									<tr>
+										<td>
+											<img src={Tiktok} alt="" style={styles.img} />
+										</td>
+										<td>
+											<img src={Twitter} alt="" style={styles.img} />
+										</td>
+										<td>
+											<img src={Ig} alt="" style={styles.img} />
+										</td>
+										<td>
+											<img src={Youtube} alt="" style={styles.img} />
+										</td>
+									</tr>
+								</tbody>
 							</table>
 						</div>
 					</Grid>
