@@ -18,7 +18,6 @@ const Home = () => {
 		<>
 			
 			<Header />
-			  
 			<Miniheader />
 			<Ouropportunity />
 			<TradeXopportunity />
@@ -27,7 +26,7 @@ const Home = () => {
 			<Wespend />
 			<Map />
 			<Future />
-			<Footer />
+		
 			
 		</>
 	)

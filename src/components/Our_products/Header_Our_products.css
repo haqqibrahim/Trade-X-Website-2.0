@@ -1,31 +1,14 @@
-<<<<<<< HEAD
 .divA {
 	padding-top: 30px;
-	float: left;
+
   }
   
   .divB {
-	padding: 20px;
-	float: right;
+	padding-top: 30px;
+
   }
   
   .divWarpper {
 	padding-top: 20px;
   }
-  
-=======
-.divA {
-  padding: 20px;
-  float: left;
-}
 
-.divB {
-  padding: 20px;
-  background-color: #cedddd;
-  float: right;
-}
-
-.divWarpper {
-  padding-top: 20px;
-}
->>>>>>> ce3bb2c805d103dce82f8b1aac52014765c4b850

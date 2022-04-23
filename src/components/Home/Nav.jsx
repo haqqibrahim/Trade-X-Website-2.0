@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { HiMenuAlt4 } from "react-icons/hi";
 import { AiOutlineClose } from "react-icons/ai";
 import { Link } from "react-router-dom";
-import  Home from "./Home";
+import Home from "./Home";
 import Our_products from "../Our_products/Our_products";
 
 // IMAGE IMPORTS
@@ -20,19 +20,36 @@ export default function Navbar() {
 			</div>
 
 			<ul className="text-white font-rubik md:flex hidden list-none flex-row justify-between items-center flex-initial">
-			<li className={`mx-4 cursor-pointer`}><Link to="/">Home</Link></li>
+				<li className={`mx-4 cursor-pointer`}><Link to="/">Home</Link></li>
 				<li className={`mx-4 cursor-pointer`}><Link to="/our_products">Our product</Link></li>
-				<li className={`mx-4 cursor-pointer`}>Our services</li>
-				<li className={`mx-4 cursor-pointer`}>About us</li>
-				<li className={`mx-4 cursor-pointer`}>Contact us</li>
-				
+				<li className={`mx-4 cursor-pointer`}><Link to="/our_services">Our services</Link></li>
+				<li className={`mx-4 cursor-pointer`}><Link to="/about_us">About us</Link></li>
+				<li className={`mx-4 cursor-pointer`}><Link to="/contact_us">Contact us</Link></li>
+
 			</ul>
 			<div className="flex relative">
-				{
-					toggleMenu
-						? <AiOutlineClose fontSize={28} className="text-white md:hidden cursor-pointer" onClick={() => setToggleMenu(false)} />
-						: <HiMenuAlt4 fontSize={28} className="text-white md:hidden cursor-pointer" onClick={() => setToggleMenu(true)} />
-				}
+				{toggleMenu ?
+					<AiOutlineClose fontSize={28} className="text-white md:hidden cursor-pointer" onClick={() => setToggleMenu(false)} />
+					:
+					<HiMenuAlt4 fontSize={28} className="text-white md:hidden cursor-pointer" onClick={() => setToggleMenu(true)
+					} />}
+				{toggleMenu && (
+					<ul
+						className="z-10 fixed top-0 -right-2 p-3 w-[70vw] h-screen shadow-2xl md-hidden list-none
+						flex flex-col justify-start items-end rounded-md text-white animate-slide-in
+						"
+					>
+						<li className="text-xl w-full my-2">
+							<AiOutlineClose onClick={() => setToggleMenu(false)} />
+						</li>
+						<li className={`mx-4 cursor-pointer`}><Link to="/">Home</Link></li>
+						<li className={`mx-4 cursor-pointer`}><Link to="/our_products">Our product</Link></li>
+						<li className={`mx-4 cursor-pointer`}><Link to="/our_services">Our services</Link></li>
+						<li className={`mx-4 cursor-pointer`}><Link to="/about_us">About us</Link></li>
+						<li className={`mx-4 cursor-pointer`}><Link to="/contact_us">Contact us</Link></li>
+
+					</ul>
+				)}
 			</div>
 		</nav>
 
