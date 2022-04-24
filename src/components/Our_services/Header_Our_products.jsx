@@ -1,5 +1,9 @@
 import React from 'react'
+
+// MATERIAL UI IMPORTS
 import Stack from '@mui/material/Stack';
+
+// IMAGE IMPORTS
 import Service from "../../../images/serviceImg.svg"
 
 const styles = {
