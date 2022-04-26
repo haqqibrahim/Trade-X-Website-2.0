@@ -22,7 +22,8 @@ export default function Navbar() {
 			<ul className="text-white font-rubik md:flex hidden list-none flex-row justify-between items-center flex-initial">
 				<li className={`mx-4 cursor-pointer`}><Link to="/">Home</Link></li>
 				<li className={`mx-4 cursor-pointer`}><Link to="/our_products">Our product</Link></li>
-				<li className={`mx-4 cursor-pointer`}><Link to="/our_services">Our services</Link></li>
+				<li className={`mx-4 cursor-pointer`}><Link to="/our_services">Our services(Customers)</Link></li>
+				<li className={`mx-4 cursor-pointer`}><Link to="/our_service_freelancer_influencer">Our services(Influencer/Freelancer)</Link></li>
 				<li className={`mx-4 cursor-pointer`}><Link to="/about_us">About us</Link></li>
 				<li className={`mx-4 cursor-pointer`}><Link to="/contact_us">Contact us</Link></li>
 
@@ -44,7 +45,8 @@ export default function Navbar() {
 						</li>
 						<li className={`mx-4 cursor-pointer`}><Link to="/">Home</Link></li>
 						<li className={`mx-4 cursor-pointer`}><Link to="/our_products">Our product</Link></li>
-						<li className={`mx-4 cursor-pointer`}><Link to="/our_services">Our services</Link></li>
+						<li className={`mx-4 cursor-pointer`}><Link to="/our_services">Our services(Customers)</Link></li>
+						<li className={`mx-4 cursor-pointer`}><Link to="/our_service_freelancer_influencer">Our services(Influencer/Freelancer)</Link></li>
 						<li className={`mx-4 cursor-pointer`}><Link to="/about_us">About us</Link></li>
 						<li className={`mx-4 cursor-pointer`}><Link to="/contact_us">Contact us</Link></li>
 

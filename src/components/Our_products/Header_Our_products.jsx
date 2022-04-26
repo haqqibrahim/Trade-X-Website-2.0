@@ -6,7 +6,6 @@ import Miniheader from "../Home/Miniheader";
 // IMG IMPORT
 import Appstore from '../../../images/appstore.svg';
 import Out from '../../../images/outb.mp4';
-import Vid from '../../../images/vid.mp4'
 
 const styles = {
   img: {

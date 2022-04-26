@@ -3,6 +3,7 @@ import React from "react";
 import Facebook from "../../../images/facebook.svg"
 import Twitter from "../../../images/twitter2.svg"
 import Instagram from "../../../images/instagram.svg"
+import Stack from '@mui/material/Stack';
 
 const styles = {
 	img: {
@@ -27,7 +28,11 @@ const Footer = () => (
 				<img src={Instagram} alt="" style={styles.img} className="pl-5" />
 			</div>
 			<div className="items-center flex justify-between text-center pb-5">
-				<p className="text-white text-left text-xs">Terms & Conditions</p>
+			<Stack direction="row">
+			<h1 className="text-white text-left text-xs">Terms</h1>
+			<h1 className="text-white text-left text-xs">&</h1>
+			<h1 className="text-white text-left text-xs"> Conditions </h1>
+			</Stack>
 				<p className="text-white  ml-5 text-right text-xs">Privacy Policy</p>
 
 			</div>
