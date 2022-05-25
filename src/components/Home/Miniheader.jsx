@@ -1,12 +1,16 @@
 // IMAGE IMPORTS
-import Datapoint from "../../../images/datapoint.svg"
+import Datapoint from "../../../images/miniheader.svg";
+
 
 const Miniheader = () => {
   return (
-	<>
-	<img src={Datapoint} alt="" className="pt-28 sm:w-100%"/>
-	</>
-  )
-}
+   <>
+	 <center >
+        {" "}
+        <img src={Datapoint} style={{justifySelf: "center"}} alt="" className="pt-28  place-self-center" />
+      </center>
+    </>
+  );
+};
 
-export default Miniheader
+export default Miniheader;

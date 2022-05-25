@@ -49,11 +49,11 @@ function Header_Our_products() {
 						reach Gen-Z on Trade-X chat.
 					</p>
 					<div className="bg-[#ffff] text-bold lg:mt-8 mt-4 py-2 w-36 rounded-lg cursor-pointer border-2 hover:bg-[#ffff]">
-						Join as a customer
+					<a href="https://trade-x-waitlist.herokuapp.com/customers">Join as a customer</a>
 					</div>
 				</div>
 			
-				<div className="pt-10 lg:pl-60">
+				<div className="pt-10 pl-96">
 					<img src={Service} alt="service"/>
 				</div>
 			</Stack>

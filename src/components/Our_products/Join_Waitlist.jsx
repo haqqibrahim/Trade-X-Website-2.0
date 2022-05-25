@@ -45,7 +45,7 @@ function Join_Waitlist() {
 						</div>
 						<div style={styles.divB}>
 							<Button variant="contained" sx={{ color: grey[900], backgroundColor: grey[500], ":hover" : {backgroundColor: '#9e9e9e'} }} endIcon={<ArrowRightAltIcon fontSize="small" sx={{ color: grey[900] }} />}>
-								Sign Up!
+							<a href="https://trade-x-waitlist.herokuapp.com/">Sign Up!</a>
 							</Button>
 						</div>
 					</div>
