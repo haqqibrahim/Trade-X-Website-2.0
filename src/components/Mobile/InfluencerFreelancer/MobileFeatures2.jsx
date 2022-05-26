@@ -4,7 +4,7 @@ import React from "react";
 import UserTool from "../../../../images/usertool.svg";
 import CommTool from "../../../../images/commtool.svg";
 import AdminTool from "../../../../images/admintool.svg";
-import AnalyticsTool from "../../../../images/analyticsTool.svg";
+import AnalyticsTool from "../../../../images/analyticstool.svg";
 import MerchTool from "../../../../images/merchtool.svg";
 import NotificationTol from "../../../../images/nottool.svg";
 import BroadcastTool from "../../../../images/broadcastImg.svg";

@@ -5,7 +5,7 @@ import Stack from '@mui/material/Stack';
 
 // IMAGE IMPORTS
 import Fav from "../../../images/fav.svg";
-import AnalyticsTool from "../../../images/analyticsTool.svg";
+import AnalyticsTool from "../../../images/analyticstool.svg";
 
 const styles = {
 	img: {
